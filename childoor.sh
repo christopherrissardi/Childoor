@@ -1,15 +1,20 @@
 #!/bin/bash
 
-echo ""
-echo "                  --------------------------"
-echo "                           Childoor         "
-echo "                  --------------------------"
-echo ""
-echo "Ferramenta de abrir portas para verificacao de firewall - Script Adaptavel!"
-echo ""
-echo "--------------------------------------------------------------"
-echo "               Created By Christopher Rissardi"
-echo "--------------------------------------------------------------"
+
+
+clear
+echo " "
+echo " "
+echo " "
+echo " "
+echo "                 +------------------------------------+"
+echo "                 +      Childoor - Opening Ports      +"
+echo "                 +------------------------------------+"
+echo "                 +   Created By Cristopher Rissardi   +"
+echo "                 +------------------------------------+"
+echo " "
+echo " "
+echo " "
 nc -vnlp 80&
 sleep 2
 nc -vnlp 53&
@@ -19,9 +24,12 @@ sleep 2
 nc -vnlp 22&
 sleep 2
 echo ""
-echo "              ++++++++++++++++++++++++++++++++"
-echo "              +++ As portas foram abertas! +++"
-echo "              ++++++++++++++++++++++++++++++++"
-echo ""
-sleep 4
+echo "                    +----------------------------+"
+echo "                    +  As portas foram abertas!  + "
+echo "                    +----------------------------+"
+echo " "
+echo " "
+echo " "
+echo " "
+sleep 2
 netstat -nlpt
