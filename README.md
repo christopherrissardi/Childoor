@@ -2,9 +2,7 @@
 
 Script em shell extremamente simples para abrir portas automaticamente em segundo plano no netcat. Se torna bem útil quando é preciso fazer alguma verificação em várias portas de uma só vez, bypass de firewalls com Bind e Reverse Shell
 
-
-
-
+![aaa](https://github.com/user-attachments/assets/77004f6d-0fc7-48d3-b020-e646a23ab060)
 
 
 ## ✅ Requisitos
